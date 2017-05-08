@@ -1267,6 +1267,10 @@ body.is-loading #banner:after {
 	width: 30%;
 }
 
+.contact:hover {
+	color: #0de2d1;
+}
+
 @media screen and (max-width: 980px) {
 
 	#cta .inner {
@@ -1386,6 +1390,7 @@ body.is-mobile #main > header {
 
 #footer .icons a:hover {
 	color: #fff;
+	font-size: 1.2em;
 }
 
 #footer .copyright {
@@ -1412,11 +1417,11 @@ body.is-mobile #main > header {
 }
 
 #footer .copyright li a {
-	color: inherit;
+	color: #21b2a6;
 }
 
 #footer .copyright li a:hover {
-	color: #fff;
+	color: #0de2d1;
 }
 
 @media screen and (max-width: 480px) {
@@ -1445,6 +1450,17 @@ body.is-mobile #main > header {
 		padding: 3em 2em 1em 2em ;
 	}
 
+}
+
+.translate {
+	background-color: #21b2a6; 
+    border: none;
+	color: black;
+}
+
+.translate:hover {
+	background-color: #0de2d1;
+	font-size: 1.2em;
 }
 
 /* Landing */
